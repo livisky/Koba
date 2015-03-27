@@ -18,6 +18,7 @@ prod: {
 }
 },
 
+
 （二）js合并压缩
 
 1、在newMall\statics\b2c\Gruntfile.js 文件中找到uglify的配置中tools的配置，在files对象里添加要压缩的文件和压缩后的路径及文件名，例如：
