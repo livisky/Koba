@@ -1,0 +1,88 @@
+/*
+ * ====================================
+ * Date   : 2015-03-03
+ * Author : 谷莉莎
+ * Memo   : 本文件为商城通用样式文件
+ * ====================================
+ */
+
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置页面最小宽度 */
+body {
+    min-width: 960px;
+}
+
+/* 设置页面主体内容宽度 */
+.page {
+    margin: 0 auto;
+    width: 960px;
+}
+
+/*  */
+
+/* 防止浮动塌陷 */
+.clearfix:before, 
+.clearfix:after { 
+    content: ""; 
+    display: table; 
+} 
+.clearfix:after { 
+    clear: both; 
+} 
+.clearfix { 
+    *zoom: 1; 
+}
+
+/* 设置默认字体 */
+body,
+button, input, select, textarea, a, span, div { /* for ie */
+    font: 12px/1.5 "Microsoft Yahei", Tahoma, Helvetica, Arial, STXihei, SimSun, sans-serif;
+    color: #666666;
+}
+address, cite, dfn, em, var { /* 将斜体扶正 */
+    font-style: normal; 
+} 
+code, kbd, pre, samp, tt { /* 统一等宽字体 */
+    font-family: "Courier New", Courier, monospace; 
+} 
+small { /* 小于 12px 的中文很难阅读，让 small 正常化 */
+    font-size: 12px; 
+} 
+
+/* 重置文本格式元素 */
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* 重置列表元素 */
+ul, ol, li { 
+    list-style: none; 
+}
+
+/* 重置表单元素 */
+fieldset, 
+img { /* 让IE10及以下版本链接里的 img 无边框 */
+    border: none; 
+} 
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea { /* 使得表单元素在 ie 下能继承字体大小 */
+    font-size: 100%; 
+}
+
+/* 重置标题样式 */
+h1,  h2,  h3,  h4,  h5,  h6 { 
+    font-size:100%; 
+    font-weight:normal; 
+}

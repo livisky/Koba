@@ -1,0 +1,572 @@
+
+body {
+    font: 12px/1.5 "宋体", Tahoma, Helvetica, Arial, STXihei, SimSun, sans-serif;
+    color: #666666;
+    min-width: 960px;
+    font-family: "微软雅黑" !important;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #666666;
+}
+input:focus {
+    outline: none;
+}
+.btn {
+    background: none;
+    border: none;
+    display: inline-block;
+    zoom: 1;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    padding: 0;
+    overflow: visible;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.clearfix:after, .page:after, .small-page:after, .tab-box .label-list:after, .center .section:after, .center .friend-link .friend-link-inner:after, .center .friend-link .link-list:after, .center .charts-content .product-item:after, .center .hot-brand .brand-list:after, .center .gift .product-item:after, .center .index-promotions .product-list:after, .center .timebuy-list .timebuy-btn-bar:after, .center .mail-subscribe .subscribe-box:after, .center .integration-center .product-list:after, .center .history .product-item:after, .center .sales-rank .product-item:after, .center .add-weibo:after, .im:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.header{
+    width: 100%;
+    position: relative;
+}
+.header .header_top a {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+.header .header_top a:hover{
+    text-decoration: underline;
+}
+.header-main {
+    margin: 0 auto;
+    height: 63px;
+    max-width: 1220px;
+    min-width: 936px;
+}
+.header .logo{
+    width: 232px;
+    height: 42px;
+    overflow: hidden;
+    margin-left: 10px;
+    float: left;
+
+}
+.header .logo, .header .logo a, .header .logo img {
+    width: 232px;
+    height: 42px;
+}
+
+.header .topLogin{
+    height: 31px;
+}
+.header .topLogin li.wrap-menu{
+    padding: 10px 11px;
+    float: right;
+    position: relative;
+}
+
+.header .topLogin li.inspace{
+    float: right;
+    padding: 10px 0px;
+    height: 18px;
+    width: 1px;
+    background: url( ../../../images/dealersignup/dividing.gif ) center no-repeat;
+}
+/* 箭头 */
+.header .topLogin li.wrap-menu.dropdown a.select{
+    display: block;
+    padding: 3px 26px 7px 2px;
+    margin-top: -3px;
+    line-height: normal;
+    text-align: right;
+    background: url(../../../images/dealersignup/arrow_bg.png) right top no-repeat;
+}
+.header .topLogin li.wrap-menu.dropdown a.select.focus {
+    padding: 3px 26px 7px 2px;
+    background: url(../../../images/dealersignup/arrow_bg.png) right -30px no-repeat;
+}
+.header-qrcode-btn{
+    display: block;
+    height: 24px;
+    padding: 0 15px 0 10px;
+    position: relative;
+}
+.header-qrcode-btn.focus{
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 3px 3px 0 0 ;
+    text-decoration: none;
+}
+
+.header-qrcode-bd {
+    display: none;
+    width: 178px;
+    height: 237px;
+    background: url(../../../images/dealersignup/header-qrcode.png) 0 -19px;
+    position: absolute;
+    z-index: 10000;
+    right: 11px;
+}
+.header-qrcode-sys {
+    height: 24px;
+    width: 74px;
+    position: absolute;
+    bottom: 14px;
+}
+.header-qrcode-sys-android {
+    background: url(../../../images/dealersignup/header-qrcode.png) -9px -218px no-repeat;
+    left: 9px;
+}
+.header-qrcode-sys-ios {
+    background: url(../../../images/dealersignup/header-qrcode.png) -93px -218px no-repeat;
+    left: 93px;
+}
+.header-qrcode-sys-android:hover {
+    background-position-y: -267px;
+}
+.header-qrcode-sys-ios:hover {
+    background-position-y: -267px;
+}
+
+.header .topLogin li.wrap-menu ul{
+    position: absolute;
+    width: 100%;
+    border: 1px solid #d6d6d6;
+    left: -1px;
+    top: 3px;
+    padding-top: 27px;
+}
+
+.header .topLogin li.wrap-menu ul li{
+    padding-left: 14px;
+    background: #fff;
+}
+
+.header .topLogin li.wrap-menu ul li{
+    line-height: 24px;
+}
+.header .topLogin li .header-cart {
+    width: 70px;
+    display: block;
+    margin: 0 -12px 0 -9px;
+}
+.header .topLogin li .header-cart .ibutton{
+    position: relative;
+    cursor: pointer;height: 24px;
+    line-height: 24px;
+}
+.header .topLogin li .header-cart .ibutton .icard{
+    position: absolute;
+    width: 19px;
+    height: 14px;
+    background: url(../../../images/dealersignup/icons.png) -5px -5px no-repeat;
+    top: 2px;
+    left: 10px;
+    margin: 0;
+}
+.minicart .minicart-title {
+    position: absolute;
+    right: 0;
+    top: -2px;
+    background: none;
+    border-left: none;
+    color: #fff;
+    width: 31px;
+    height: 25px;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 0px;
+    left: 35px;
+    color: #7d7c7c;
+}
+.header-cart .minicart.has-pro .minicart-title, .header-cart .minicart.has-pro .num {
+    color: #ff6c00;
+}
+
+
+
+
+
+/* 注册表格 */
+
+.small-page{ 
+    width:960px;
+    margin: 0 auto;
+}
+
+.center {
+    float: left;
+    width: 100%;
+}
+.center .PassportWrap {
+    background: url(../../../images/dealersignup/register_bg.png) no-repeat right;
+    border: 1px solid #e1dcdc;
+    height: auto;
+    margin: 0;
+    margin-bottom: 30px !important;
+    padding: 0;
+    width: 958px;
+}
+.PassportWrap form#signupform {
+    padding: 20px 18px;
+}
+
+
+.PassportWrap .loginbox {
+    margin: 0;
+    padding: 0;
+}
+
+.PassportWrap .loginbox .login-title{ 
+    color: #e83030; 
+    font-size: 18px; 
+    font-weight:normal;
+}
+
+.PassportWrap .loginbox ul { 
+   /* padding: 0;
+    list-style-type: none;*/
+ }
+
+.PassportWrap .loginbox ul li{ 
+    padding:1px 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.loginbox .login-v {
+    padding: 5px 2px;
+    float: left;
+}
+.loginbox .login-k{ 
+    display: block;
+    float: left;
+    width: 83px;
+    height: auto;
+    text-align: left ;
+    padding:0 0 0 10px; 
+    margin-top:10px
+}
+
+.loginbox .no_blank {
+    background:url(../../../images/dealersignup/icon.png) no-repeat -25px 7px
+}
+
+.loginbox .login-v .inputstyle {
+    width: 300px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    background: url(../../../images/dealersignup/input-bg.gif) no-repeat 0 0 white;
+    font-size: 12px;
+}
+
+.loginbox .login-v .inputstyle#iptsingup{   /* 验证码输入框 */
+    width: 130px;
+}
+
+/* 同意注册 */
+#license {      
+    height: 15px;
+    width: 15px;
+    margin: 0px;
+    vertical-align: middle;
+}
+a.zhucetiaokuan:link,a.zhucetiaokuan:visited {
+    color:#005580;
+    text-decoration: none;
+}
+a.zhucetiaokuan:hover,a.zhucetiaokuan:active {
+    color:#005580;
+    text-decoration: underline;
+}
+/* 同意注册 结束*/
+
+
+/* 下一步 按钮*/
+.PassportWrap .common-btn {
+    background: url(../../../images/dealersignup/login_btn_bg.png);
+    height: 36px;
+    left: 0px;
+    width: 160px;
+}
+.PassportWrap .common-btn.disable {
+    background: url(../../../images/dealersignup/login_btn_bg1.png);
+}
+.PassportWrap .common-btn span { 
+    height: 36px;
+    line-height: 36px;
+    color: white;
+    font-weight: bold;
+    background: none !important; 
+}
+
+.btn-login {
+    background: url(../../../images/dealersignup/login_btn_bg.png);
+    height: 39px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 160px;
+}
+.btn-login span { 
+    background: none !important ; 
+}
+
+
+/* 未收到验证码 */
+.info_tip{ 
+    position:absolute; 
+    display:none; 
+    z-index:131062; 
+    width:240px; 
+    height:60px; 
+    background:url(../../../images/dealersignup/info_tip.png) no-repeat 0 -75px
+}
+.content_tip{ 
+    width:210px; 
+    height:42px; 
+    padding:8px 0px 10px 10px;
+     float:left; 
+     font-size:12px; 
+     color: #626262
+ }
+.close_tip{ 
+    width:12px; 
+    height:12px; 
+    float:left; 
+    margin-top:5px; 
+    cursor:pointer
+}
+/* 未收到验证码 结束*/
+
+
+
+/* 密码强度评定样式*/
+.safeli{ 
+    display:none
+}
+.safebox{ 
+    margin-left:95px
+}
+.saveline{ 
+    float:left; 
+    width:225px; 
+    height:10px; 
+    margin-top:3px; 
+    background:#dedede
+}
+.safescore{ 
+    height:10px
+}
+.safetext{ 
+    float:left; 
+    height:14px; 
+    line-height:14px; 
+    padding-left:10px; 
+    text-align:right; 
+    color:#545454
+}
+/* prompt */
+.prompt_warn{ 
+    display:inline-block; 
+    padding-left:22px; 
+    margin-left:4px; 
+    line-height:18px; 
+    font-size:13px; 
+    color:#e1593b; 
+    background:url(../../../images/dealersignup/icon.png) no-repeat -13px -9px
+}
+.prompt_pass{ 
+    display:inline-block; 
+    height:18px; 
+    padding-left:18px; 
+    margin-left:4px; 
+    background:url(../../../images/dealersignup/icon.png) no-repeat -13px -27px
+}
+/* prompt end */
+
+input[disabled], 
+select[disabled], 
+textarea[disabled],
+input[readonly], 
+select[readonly], 
+textarea[readonly]{ 
+    cursor:not-allowed; 
+    border-color:#ddd; 
+    background:#eee
+}
+
+.fr {
+    float: right;
+}
+.hide{
+    display: none;
+}
+.mask{
+    background-color: #000;
+    filter:alpha(opacity=30);
+    -moz-opacity:0.3;
+    opacity: 0.3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+/* 手机验证码弹出框 */
+.mobileVcodeBox{
+    width: 350px;
+    height: 170px;
+    padding: 15px 15px 15px 35px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -201px;
+    margin-top: -101px;
+    border: 1px solid #aaa;
+    box-shadow:0 3px 7px #888;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 13px;
+    font-family: 微软雅黑;
+}
+.pcontent {
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.pcontent a:link , .pcontent a:visited{
+    color: #0088CC;
+    text-decoration: none;
+}
+.pcontent a:hover , .pcontent a:active{
+    color: #005580;
+}
+.mobileVcodeBox .close {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-family: arial;
+}
+.mobileVcodeBox.loginbox .login-k {
+    width: 80px;
+}
+
+.mobileVcodeBox.loginbox .inputstyle {
+    width: 220px;
+    height: 28px;
+    line-height: 28px;
+    margin: 5px 0 0;
+    padding: 0;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    background: url(../../../images/dealersignup/input-bg.gif) no-repeat 0 0 white;
+    font-size: 12px;
+}
+.mobileVcodeBox .vcodeMessage {
+    height: 40px;
+    display: block;
+}
+#mobileVcode_next {
+    cursor: pointer;
+    border: 1px solid #dddddd;
+    background: #eeeeee;
+    border-radius: 3px;
+    display: block;
+    padding: 4px 18px;
+    color: #888888;
+}
+
+#mobileVcode_next.btn_e {
+    background-image: linear-gradient(#FF7F00, #FF6102);
+    background-color: #FF6102;
+    border-radius: 5px;
+    border: 1px solid #F75C20;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0 20px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+/* 手机验证码弹出框 结束*/
+
+
+
+.kanbuqing {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.kanbuqing a:link,.kanbuqing a:visited {
+    color: #0088CC;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+.kanbuqing a:hover,.kanbuqing a:active {
+    text-decoration: underline;
+}
+
+
+.upgrade_btn a:link,.upgrade_btn a:visited {
+    color: #f15c43;
+}
+.upgrade_btn a:hover,.upgrade_btn a:active {
+    color: #f15c43;
+    text-decoration: underline;
+}
+
+
+
+
+/* 底部工具条 */
+.footer {
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 30px;
+    margin-top: 30px !important;
+    border-top: none;
+    border-bottom: none;
+}
+.flogo { 
+    margin: 0 auto; 
+    text-align: center; 
+    width: 960px
+}
+.flogo a:hover { 
+    text-decoration: underline;
+    color: #666; 
+}
+.flogo img{ 
+    position:relative; 
+    top:4px
+}

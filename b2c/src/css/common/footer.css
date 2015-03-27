@@ -1,0 +1,178 @@
+/*
+ * ====================================
+ * Date   : 2015-03-03
+ * Author : 谷莉莎
+ * Memo   : 本文件为商城尾部样式文件
+ * ====================================
+ */
+
+/* footer */
+.footer {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+/* -- li_sh -- */
+.li_sh {
+    background: #f7f7f7;
+    border: 1px solid #dcdcdc;
+    height: 71px;
+    margin: 0 auto 14px auto;
+}
+.sh_item {
+    width: 239px;
+    float: left;
+    height: 71px;
+    border-right: 1px solid #dcdcdc;
+    cursor: pointer;
+}
+.sh_item .cnt {
+    background: none;
+    text-align: center;
+    height: 71px;
+    font-family: '微软雅黑';
+    color: #717171;
+    line-height: 70px;
+}
+.sh_item .cnt:hover {
+    color: #f15c43;
+}
+.sh_item span {
+    display: inline-block;
+}
+.sh_item .cnt .tex_b {
+    font-size: 30px;
+    padding-right: 4px;
+    cursor: pointer;
+    height: 70px;
+    line-height: 70px;
+}
+.sh_item .cnt .tex_s {
+    font-size: 12px;
+    line-height: 14px;
+    cursor: pointer;
+}
+/* -- end li_sh -- */
+/* -- help -- */
+.footer .helper {
+    min-height: 149px;
+    font-family: '微软雅黑';
+    border-bottom: none;
+    padding: 15px 0;
+}
+.footer .helper .novice_help { 
+    width: 180px;
+}
+.footer .helper .shopping_guide { 
+    width: 210px;
+}
+.footer .helper .delivery_mode { 
+    width: 190px;
+}
+.footer .helper .after_service { 
+    width: 200px;
+}
+.footer .helper .about_center { 
+    width: 170px;
+}
+.footer .helper-item { 
+    float: left;
+    width: 192px;
+}
+.footer .content-list {
+    line-height: 2em;
+}
+.footer .content-list .content-title { 
+    font-size: 14px; 
+    font-weight: normal; 
+    color: #565656;
+}
+.footer .article-index-list { 
+    *float: left;
+}
+.footer .article-index-list a,
+.footer .article-index-list dd { 
+    color: #8d8d8d;
+}
+.emali-ico, 
+.tel-ico {
+    margin-right: 9px;
+    vertical-align: middle;
+}
+.sh_item.sh4 {
+    border-right: none;
+}
+/* -- end help -- */
+/* -- flink -- */
+.flink {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 8px;
+    color: #8d8d8d;
+    font-family: '微软雅黑';
+}
+.friend-title {
+    padding-left: 30px;
+    padding-right: 4px;
+    color: #aaaaaa;
+}
+.link-item {
+    float: left;
+    padding: 0 15px 0 15px;
+    margin: 0;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+}
+.link-item a:link {
+    color: #aaaaaa;
+}
+.link-item a:visited {
+    color: #aaaaaa;
+}
+.link-item a:hover {
+    color: #ff5a00;
+}
+.link-item a:active {
+    color: #ff5a00;
+}
+.friend-con {
+    width: 860px;
+}
+.friend-con-con {
+    width: 100%;
+    overflow: hidden;
+    height: 28px;
+    position: relative;
+}
+ul.link-list {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* -- end flink -- */
+/* -- copyright -- */
+.footer .copyright { 
+    position: absolute; 
+    z-index:70000;
+    width: 100%; 
+    height: 36px; 
+}
+.footer .copyright_text { 
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    padding: 9px 0px 0px 80px;
+    background: url(/statics/b2c/images/footer/footer_logo.jpg) no-repeat 0px 12px;
+    line-height: 18px;
+}
+/* -- end copyright -- */
+
+
+
+
+

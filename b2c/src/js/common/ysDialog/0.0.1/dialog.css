@@ -1,0 +1,12 @@
+.sea-ysdialog{ height: auto; background: #fff; position: relative;}
+.sea-ysdialog-title{ height: 30px; padding: 0 10px; margin: 0; line-height: 30px; font-size: 14px;}
+.sea-ysdialog-bd{ height: auto; padding: 10px;}
+.sea-ysdialog-close{ display: block; height: 14px; width: 14px; line-height: 14px; font-family: "宋体"; font-size: 14px; font-weight: bold; color: #999; text-align: right; position: absolute; right: 9px; top: 9px;}
+a.sea-ysdialog-close:hover{ text-decoration: none;}
+.sea-ysdialog-btn{ display: block; height: 28px; width: auto; padding: 0 20px; border-radius: 2px; line-height: 28px; font-size: 12px; font-weight: bold; float: left; text-align: center; text-decoration: none; white-space: nowrap;}
+.sea-ysdialog-btn:hover{ text-decoration: none;}
+.sea-ysdialog-btn-orange{ background: #ff7624; color: #fff;}
+.sea-ysdialog-btn-orange:hover{ background: #f15924; color: #fff;}
+.sea-ysdialog-btn-grey{ background: #d0d0d0; color: #323131;}
+.sea-ysdialog-btn-grey:hover{ background: #b3b3b3; color: #323131;}
+.sea-ysdialog.hint{border: 2px solid #FFCCCC; border-radius: 2px;}
