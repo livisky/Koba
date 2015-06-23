@@ -1,4 +1,7 @@
-# static
+# Koba
+fontend template for pc 
+(grunt+seajs+jquery)
+
 静态资源架构及配置，样式压缩，图片压缩，js合并压缩
 
 
